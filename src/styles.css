@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+}
+
+button {
+    background-color: black !important;
+    border-radius: 5px;
+    border: 0px;
+    color: white !important;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px 10px;
+  }
+  
+  button:hover {
+    background-color: #3e4144 !important;
+  }
+  
+  button:focus{ 
+    outline: none;
+  }
